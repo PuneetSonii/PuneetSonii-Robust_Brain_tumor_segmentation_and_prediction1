@@ -1,0 +1,10 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  # Use forward slashes in the path
+  source_URL: https://github.com/PuneetSonii/files/tree/main/MICCAI_BraTS_2018_Data_Training
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+
